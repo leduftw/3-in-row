@@ -42,7 +42,7 @@ public:
 
 	// Izracunavanje trenutnog stanja na tabli, odigravanje poteza, proveravanje da li je partija zavrsena, ispis table i ucitavanje table
 	int evaluate() const;
-	Board *drop(int);
+	Board* drop(int);
 
 	bool isFinished() const {
 		return !(val == 10 || val == -10);

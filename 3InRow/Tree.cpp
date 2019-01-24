@@ -32,7 +32,6 @@ Tree::Tree(Board *b, int mm) : m(mm), root(new TreeNode(b)) {
 
 					// Propagacija
 					TreeNode *temp = next;
-					// int vrednost = b->evaluate();
 					while (true) {
 						// Ako je cvor list, pocinje propagacija
 						if (b->isFinished()) {
