@@ -24,7 +24,7 @@ class Queue {
 
 	// Cvor liste - pokazivac na cvor stabla i na naredni element liste
 	struct Node {
-		TreeNode* info;
+		TreeNode *info;
 		Node *next;
 
 		Node(TreeNode *data, Node *n = nullptr) {
