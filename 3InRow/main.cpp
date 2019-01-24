@@ -9,7 +9,7 @@ int main() {
 	int choice1, choice2;
 	char player1, player2, color;
 
-	// Zagrevanje generatora
+
 	for (int i = 0; i < 100; i++)
 		rnd = rand();
 

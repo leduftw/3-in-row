@@ -97,6 +97,7 @@ public:
 		return front->info;
 	}
 
+	// Umetanje i brisanje elementa iz reda
 	void push(TreeNode *);
 	void pop();
 
