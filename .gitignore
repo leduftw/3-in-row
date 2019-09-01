@@ -4,3 +4,4 @@
 !.gitignore
 !*/
 !Position[0-9].txt
+!Statement.pdf
